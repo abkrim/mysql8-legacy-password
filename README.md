@@ -1,4 +1,7 @@
-# mysql8-legacy-password
+# Description
+Over MySQL 8.0 latest official image add compatibility with old password system
+
+## mysql8-legacy-password
 There are currently problems in using MySQL 8.0 with Laravel for using MySQL 8.0 due to the new authentication model.
 Many images for Laravel deploys fail for this reason.
 The purpose of this image is to modify the official image of Mysql 8.0 to make it compatible.
